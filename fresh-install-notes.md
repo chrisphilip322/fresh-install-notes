@@ -8,3 +8,4 @@
 1. (EDIT WITH (visudo)) add `chris` to sudoers by adding `chris ALL=(ALL) ALL` line to `/etc/sudoers`
 1. [configure external drives](./setup_external_drives.md)
 1. [configure SMB](./setup_smb.md)
+1. [configure plex drive shares](./setup-plex-shares.md)
