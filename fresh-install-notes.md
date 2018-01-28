@@ -9,3 +9,4 @@
 1. [configure external drives](./setup_external_drives.md)
 1. [configure SMB](./setup_smb.md)
 1. [configure plex drive shares](./setup-plex-shares.md)
+1. [configure qBittorrent-nox](./setup-qbittorrent-nox.md)

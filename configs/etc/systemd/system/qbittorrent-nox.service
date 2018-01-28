@@ -1,0 +1,15 @@
+[Unit]
+Description=qBittorrent-nox service. Headless qBittorrent server controlled by web UI.
+
+[Service]
+ExecStart=qbittorrent-nox
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=qbittorrent-nox-service
+User=web
+Group=web
+
+[Install]
+WantedBy=multi-user.target
