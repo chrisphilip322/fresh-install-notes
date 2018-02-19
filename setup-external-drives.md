@@ -4,3 +4,4 @@
 4. [add devices to `/etc/fstab`](./configs/etc/fstab)
   1. get device UUID from `ls -l /dev/disk/by-uuid`
   2. add line in `/etc/fstab` `UUID=?   /mnt/1external  ext4    rw  0   0`
+5. make sure permissions are setup correctly
