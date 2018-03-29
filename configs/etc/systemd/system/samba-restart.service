@@ -1,0 +1,6 @@
+[Unit]
+Description=Restart the samba service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl try-restart smbd.service
