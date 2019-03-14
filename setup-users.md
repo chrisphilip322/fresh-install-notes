@@ -1,4 +1,4 @@
-1. add `chris` user, `useradd -m -g users -s /etc/bash chris`
+1. add `chris` user, `useradd -m -g users -s /bin/bash chris`
 1. set password for `chris` user, `passwd chris`
 1. add desktop public ssh key to pi's `.ssh/authorized_users`
 1. make `andy` user
